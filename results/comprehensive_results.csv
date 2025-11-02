@@ -1,0 +1,15 @@
+model,attack,epsilon,accuracy,f1_score
+ResNet50_Adam_Baseline,Clean,0.0,1.0,1.0
+ResNet50_Adam_AdvTrain_FGSM,clean,0.0,1.0,1.0
+ResNet50_Adam_Baseline,FGSM,0.01,1.0,1.0
+ResNet50_Adam_Baseline,FGSM,0.03,1.0,1.0
+ResNet50_Adam_Baseline,FGSM,0.05,1.0,1.0
+ResNet50_Adam_Baseline,PGD,0.01,1.0,1.0
+ResNet50_Adam_Baseline,PGD,0.03,1.0,1.0
+ResNet50_Adam_Baseline,PGD,0.05,1.0,1.0
+ResNet50_Adam_AdvTrain_FGSM,FGSM,0.01,1.0,1.0
+ResNet50_Adam_AdvTrain_FGSM,FGSM,0.03,1.0,1.0
+ResNet50_Adam_AdvTrain_FGSM,FGSM,0.05,1.0,1.0
+ResNet50_Adam_AdvTrain_FGSM,PGD,0.01,1.0,1.0
+ResNet50_Adam_AdvTrain_FGSM,PGD,0.03,1.0,1.0
+ResNet50_Adam_AdvTrain_FGSM,PGD,0.05,1.0,1.0
