@@ -1,1 +1,1 @@
-all the models are uploaded here 
+All the models are uploaded here. Since I use google colab [free tier] and the threat of power outage during training, I decided to save the model after each epoch to resume training despite said problems, resulting in multiple version of the same model at different stages in it's training.   
