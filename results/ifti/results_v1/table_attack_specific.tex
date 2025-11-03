@@ -1,0 +1,18 @@
+\begin{table}[htbp]
+\centering
+\small
+\caption{Model Performance Against Specific Attacks}
+\label{tab:attack_specific}
+\begin{tabular}{lccc}
+\toprule
+Model & Clean & FGSM & PGD \\
+\midrule
+Adam-Baseline & 0.9529 & 0.8043 & 0.7423 \\
+RMSprop-Baseline & 0.9968 & 0.7019 & 0.6597 \\
+Adam-FGSM & 0.9992 & 0.9957 & 0.1063 \\
+RMSprop-FGSM & 0.9987 & 0.9973 & 0.1661 \\
+Adam-PGD & 0.9969 & 0.9704 & 0.9700 \\
+RMSprop-PGD & 0.8757 & 0.8757 & 0.8757 \\
+\bottomrule
+\end{tabular}
+\end{table}

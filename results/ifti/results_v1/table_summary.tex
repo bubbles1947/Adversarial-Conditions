@@ -1,0 +1,18 @@
+\begin{table}[htbp]
+\centering
+\small
+\caption{Model Performance Summary: Clean and Robust Accuracy Across All Configurations}
+\label{tab:summary}
+\begin{tabular}{lcccccc}
+\toprule
+Optimizer & Defense & Clean Acc & Clean F1 & Robust Acc & Robust F1 & Combined \\
+\midrule
+Adam & Baseline & 0.9529 & 0.9481 & 0.7833 & 0.8092 & 0.8342 \\
+Adam & FGSM & 0.9992 & 0.9992 & 0.5131 & 0.4795 & 0.6589 \\
+Adam & PGD & 0.9969 & 0.9969 & 0.9701 & 0.9683 & 0.9782 \\
+RMSprop & Baseline & 0.9968 & 0.9968 & 0.7468 & 0.7877 & 0.8218 \\
+RMSprop & FGSM & 0.9987 & 0.9987 & 0.5406 & 0.5189 & 0.6780 \\
+RMSprop & PGD & 0.8757 & 0.8177 & 0.8757 & 0.8177 & 0.8757 \\
+\bottomrule
+\end{tabular}
+\end{table}
