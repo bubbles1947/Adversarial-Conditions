@@ -1,7 +1,4 @@
 # Adversarial Training Results
-
-Generated: 2025-11-01 22:13:04
-
 ## Files Description
 
 ### CSV Files
@@ -11,9 +8,9 @@ Generated: 2025-11-01 22:13:04
 - `attack_specific_performance.csv` - Performance against specific attacks
 
 ### LaTeX Tables
-- `table_summary.tex` - Summary table (ready for paper)
-- `table_comparison.tex` - Comparison table (ready for paper)
-- `table_attack_specific.tex` - Attack-specific table (ready for paper)
+- `table_summary.tex` - Summary table
+- `table_comparison.tex` - Comparison table
+- `table_attack_specific.tex` - Attack-specific table
 
 ### Reports
 - `summary_report.txt` - Comprehensive text report
