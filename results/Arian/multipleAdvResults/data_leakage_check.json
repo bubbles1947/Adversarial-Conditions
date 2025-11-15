@@ -1,0 +1,9 @@
+{
+  "train_size": 20960,
+  "val_size": 2620,
+  "test_size": 2620,
+  "train_val_overlap": 51,
+  "train_test_overlap": 55,
+  "val_test_overlap": 6,
+  "leakage_detected": true
+}
